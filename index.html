@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plantas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Griffy|Princess+Sofia" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="plantsApp" class="page">
+    <header>
+        <hgroup class="title-page">
+            <h1 class="griffy">Landareak</h1>
+            <h2 class="princess-sofia">Cervantes Eskola</h2>
+        </hgroup>
+    </header>
+
+    <nav>
+        <ul class="primary-nav">
+            <li>
+                <a href="" class="griffy primary-nav__link icon icon-tree"
+                    @click.prevent="setMenuActivo('zuhaitzak')">Zuhaitzak</a>
+            </li>
+            <li>
+                <a href="" class="griffy primary-nav__link icon icon-flower" 
+                @click.prevent="setMenuActivo('loreak')">Loreak</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="zuhaitzak" v-show="menuActivo === 'zuhaitzak'">
+            <ul class="plants-list">
+                <li v-for="planta in listaZuhaitzak" class="item">
+                    <img :src="planta.srcImg" alt="" class="">
+                    <p class="griffy item-name">{{planta.nombre}}</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="loreak" v-show="menuActivo === 'loreak'">
+            loreak
+        </section>
+
+    </main>
+
+    <footer class="near-black bg-near-white">
+        this is the footer
+    </footer>
+</div>
+
+<script src="js/vue.js"></script>
+<script src="js/plantsapp.js"></script>
+</body>
+</html>

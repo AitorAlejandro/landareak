@@ -1,0 +1,104 @@
+.griffy {
+    font-family: 'Griffy', cursive;
+}
+.princess-sofia {
+    font-family: 'Princess Sofia', cursive;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.page {
+    font-family: sans-serif;
+    background-color: #D8D5C9;
+    color: #555;
+    min-width: 320px;
+    
+}
+.page > header {
+    padding: 1em;
+    background-color: #397628;
+}
+.page > main {
+    max-width: 1440px;
+    margin: auto;
+}
+.title-page h1,
+.title-page h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+}
+.title-page h1 {
+    font-size: 3em;
+    color: #CFC447;
+    letter-spacing: 0.25em;
+    text-shadow: 4px 4px 4px rgba(0,0,0,1);
+}
+.title-page h2 {
+    color: #C5C8A0;
+    letter-spacing: 0.25em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
+.primary-nav {
+    list-style-type: none;
+    padding: 1.8em;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #7E996F;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+.primary-nav__link {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.primary-nav__link:hover,
+.primary-nav__link:focus,
+.primary-nav__link:active {
+    text-decoration: underline;
+}
+.primary-nav__link.icon {
+    background-repeat: no-repeat;
+    background-size: 1em;
+    padding-left: 1.5em;
+}
+.icon-flower {
+    background-image: url('../img/icon-leaf.png');
+}
+.icon-tree {
+    background-image: url('../img/icon-tree.png');
+}
+.plants-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    width: 93%;
+    margin: 2em auto;
+    flex-wrap: wrap;
+}
+
+.plants-list > .item {
+    min-width: 300px;
+    max-width: 380px;
+    margin: 1em;
+    background-image:url(../img/retina-wood.png);
+    text-align: center;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.25);
+}
+.plants-list .item-name {
+    font-size: 1.5em;
+    letter-spacing: 0.15em;
+    margin: 0.25em 0;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.page > footer {
+    color: #fff;
+    background-color: #5A5433;
+    padding: 3em 2em;
+}
