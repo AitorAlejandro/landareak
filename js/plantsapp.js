@@ -86,15 +86,17 @@ objLoreak = [
 
 var listaPlantas = new Vue({
     el: "#plantsApp",
-    data() {
+    data: function() {
         return {
             listaLoreak: objLoreak,
             listaZuhaitzak: objZuhaitzak,
             menuActivo: ""
         }
     },
-    created() {
-        this.menuActivo = "zuhaitzak";
+    created: function() {
+        return {
+            this.menuActivo = "zuhaitzak";
+        }
     },
     methods: {
         setMenuActivo: function(m) {
