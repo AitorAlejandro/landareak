@@ -47,28 +47,28 @@ objZuhaitzak = [
 
 objLoreak = [
     {
-        nombre: "Castaño",
-        srcImg: "img/castanho.jpg"
+        nombre: "Abuelo",
+        srcImg: "img/abuelo.jpg"
     },
     {
-        nombre: "Roble",
-        srcImg: "img/roble.jpg"
+        nombre: "Hiedra",
+        srcImg: "img/hiedra.jpg"
     },
     {
-        nombre: "Haya",
-        srcImg: "img/haya.jpg"
+        nombre: "Hierba",
+        srcImg: "img/hierba.jpg"
     },
     {
-        nombre: "Ciprés",
-        srcImg: "img/cipres.jpg"
+        nombre: "Musgo",
+        srcImg: "img/musgo.jpg"
     },
     {
-        nombre: "Sauce llorón",
-        srcImg: "img/sauce-lloron.jpg"
+        nombre: "Helecho",
+        srcImg: "img/helecho.jpg"
     },
     {
-        nombre: "Abedul",
-        srcImg: "img/abedul.jpg"
+        nombre: "Ortiga",
+        srcImg: "img/ortiga.jpg"
     },
     {
         nombre: "Avellano",
@@ -86,14 +86,14 @@ objLoreak = [
 
 var listaPlantas = new Vue({
     el: "#plantsApp",
-    data() {
+    data: function() {
         return {
             listaLoreak: objLoreak,
             listaZuhaitzak: objZuhaitzak,
             menuActivo: ""
         }
     },
-    created() {
+    created: function() {
         this.menuActivo = "zuhaitzak";
     },
     methods: {

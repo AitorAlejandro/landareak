@@ -47,7 +47,12 @@
         </section>
 
         <section id="loreak" v-show="menuActivo === 'loreak'">
-            loreak
+            <ul class="plants-list">
+                <li v-for="planta in listaLoreak" class="item">
+                    <img :src="planta.srcImg" alt="" class="">
+                    <p class="griffy item-name">{{planta.nombre}}</p>
+                </li>
+            </ul>
         </section>
 
     </main>
