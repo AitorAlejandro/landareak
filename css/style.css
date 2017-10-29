@@ -10,7 +10,7 @@ img {
 }
 .page {
     font-family: sans-serif;
-    background-color: #D8D5C9;
+    background: #D8D5C9 url('../img/roots.png') no-repeat bottom center;
     color: #555;
     min-width: 320px;
     
@@ -114,6 +114,6 @@ img {
 
 .page > footer {
     color: #fff;
-    background-color: #5A5433;
     padding: 3em 2em;
+    background-color: rgba(90, 84, 51, 0.9);
 }
