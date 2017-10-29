@@ -71,16 +71,16 @@ objLoreak = [
         srcImg: "img/ortiga.jpg"
     },
     {
-        nombre: "Avellano",
-        srcImg: "img/avellano.jpg"
+        nombre: "Marrubia",
+        srcImg: "img/fresa.jpg"
     },
     {
-        nombre: "Nogal",
-        srcImg: "img/nogal.jpg"
+        nombre: "Manzanilla",
+        srcImg: "img/manzanilla.jpg"
     },
     {
-        nombre: "Pino",
-        srcImg: "img/pino.jpg"
+        nombre: "Pimiento",
+        srcImg: "img/pimientos.jpg"
     }
 ];
 
