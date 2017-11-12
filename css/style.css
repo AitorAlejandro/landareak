@@ -127,3 +127,10 @@ img {
     padding: 3em 2em;
     background-color: rgba(90, 84, 51, 0.9);
 }
+.page > footer a {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}

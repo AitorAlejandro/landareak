@@ -47,27 +47,27 @@ objZuhaitzak = [
 
 objLoreak = [
     {
-        nombre: "Abuelo",
+        nombre: "Txikori-belarra",
         srcImg: "img/abuelo.jpg"
     },
     {
-        nombre: "Hiedra",
+        nombre: "Huntza",
         srcImg: "img/hiedra.jpg"
     },
     {
-        nombre: "Hierba",
+        nombre: "Belarra",
         srcImg: "img/hierba.jpg"
     },
     {
-        nombre: "Musgo",
+        nombre: "Goroldioa",
         srcImg: "img/musgo.jpg"
     },
     {
-        nombre: "Helecho",
+        nombre: "Iratzea",
         srcImg: "img/helecho.jpg"
     },
     {
-        nombre: "Ortiga",
+        nombre: "Asunak",
         srcImg: "img/ortiga.jpg"
     },
     {
@@ -75,12 +75,20 @@ objLoreak = [
         srcImg: "img/fresa.jpg"
     },
     {
-        nombre: "Manzanilla",
+        nombre: "Kamamila",
         srcImg: "img/manzanilla.jpg"
     },
     {
-        nombre: "Pimiento",
-        srcImg: "img/pimientos.jpg"
+        nombre: "Laharra",
+        srcImg: "img/zarza.jpg"
+    },
+    {
+        nombre: "Ekilorea",
+        srcImg: "img/girasol.jpg"
+    },
+    {
+        nombre: "Aloe",
+        srcImg: "img/aloe-vera.jpg"
     }
 ];
 
@@ -94,7 +102,7 @@ var listaPlantas = new Vue({
         }
     },
     created: function() {
-        this.menuActivo = "zuhaitzak";
+        this.menuActivo = "loreak";
     },
     methods: {
         setMenuActivo: function(m) {
